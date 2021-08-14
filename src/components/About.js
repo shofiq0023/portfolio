@@ -9,13 +9,13 @@ const About = () => {
 			<Container>
 				<Heading text='Personal Information' />
 				<Row>
-					<Col>
+					<Col lg>
 						<Info infoHead='Nationality' text='Bangladeshi' />
 						<Info infoHead='Address' text='151/2-B, South Pirerbag' />
 						<Info infoHead='Country' text='Bangladesh' />
 						<Info infoHead='Language' text='Bangla (Native), English' />
 					</Col>
-					<Col>
+					<Col lg>
 						<Info infoHead='Email' text='shofiqulislam0023@gmail.com' />
 						<Info infoHead='Phone' text='+880 16488-79896' />
 					</Col>
@@ -23,7 +23,7 @@ const About = () => {
 
 				<Heading text='Educational Qualification' />
 				<Row>
-					<Col>
+					<Col lg>
 						<Education
 							title='Diploma In Engineering'
 							department='Computer Technology'
@@ -39,7 +39,7 @@ const About = () => {
 							institute='HF Model High School'
 						/>
 					</Col>
-					<Col>
+					<Col lg>
 						<Education
 							title='Professional Web Design'
 							department='Web Design'

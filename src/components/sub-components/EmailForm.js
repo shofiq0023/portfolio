@@ -26,14 +26,14 @@ const EmailForm = () => {
 		<Container>
 			<Form onSubmit={submitHandle}>
 				<Row>
-					<Col>
+					<Col lg className='mb-4'>
 						<Form.Control
 							className='input-field'
 							placeholder='Your name...'
 							name='name'
 						/>
 					</Col>
-					<Col>
+					<Col lg>
 						<Form.Control
 							className='input-field'
 							placeholder='Your email...'

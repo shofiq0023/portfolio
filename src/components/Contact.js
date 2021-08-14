@@ -10,16 +10,16 @@ const Contact = () => {
 			<Container>
 				<Heading text='Contact' />
 				<Row>
-					<Col>
+					<Col lg>
 						<ContactInfo
 							icon={<FaEnvelope />}
 							text='shofiqulislam0023@gmail.com'
 						/>
 					</Col>
-					<Col>
+					<Col lg>
 						<ContactInfo icon={<FaMobileAlt />} text='+880 1648-879896' />
 					</Col>
-					<Col>
+					<Col lg>
 						<ContactInfo
 							icon={<FaMapMarkerAlt />}
 							text='Mirpur, Dhaka, Bangladesh'

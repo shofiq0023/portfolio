@@ -232,12 +232,6 @@ section {
 
 /* media query for mobile devices (iphone x) */
 @media (max-width: 376px) {
-	.navbar {
-		text-align: center;
-	}
-	.btn-custom-parent {
-		text-align: center;
-	}
 	.header .my-pic {
 		padding-top: 30px;
 	}
@@ -249,5 +243,14 @@ section {
 	}
 	.header .my-image {
 		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar {
+		text-align: center;
+	}
+	.btn-custom-parent {
+		text-align: center;
 	}
 }
