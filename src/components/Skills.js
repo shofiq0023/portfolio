@@ -15,8 +15,8 @@ const Skills = () => {
 						<SkillsItem name='JavaScript' value='80' />
 					</Col>
 					<Col>
-						<SkillsItem name='PHP' value='76' />
-						<SkillsItem name='Pyton' value='50' />
+						<SkillsItem name='PHP' value='65' />
+						<SkillsItem name='Pyton' value='40' />
 						<SkillsItem name='C#' value='10' />
 					</Col>
 				</Row>
@@ -25,21 +25,21 @@ const Skills = () => {
 				<Row>
 					<Col>
 						<SkillsItem name='Bootstrap' value='90' />
-						<SkillsItem name='TailWind-CSS' value='76' />
+						<SkillsItem name='TailWind-CSS' value='10' />
 					</Col>
 					<Col>
-						<SkillsItem name='React.js' value='78' />
-						<SkillsItem name='Node.js' value='42' />
+						<SkillsItem name='React.js' value='60' />
+						<SkillsItem name='Node.js' value='10' />
 					</Col>
 				</Row>
 
 				<h4 className='skill-heading mt-5 pt-4'>Database</h4>
 				<Row>
 					<Col>
-						<SkillsItem name='MySqli' value='85' />
+						<SkillsItem name='MySqli' value='80' />
 					</Col>
 					<Col>
-						<SkillsItem name='MongoDB' value='68' />
+						<SkillsItem name='MongoDB' value='10' />
 					</Col>
 				</Row>
 
@@ -47,7 +47,7 @@ const Skills = () => {
 				<Row>
 					<Col>
 						<SkillsItem name='GIT' value='80' />
-						<SkillsItem name='Npm' value='72' />
+						<SkillsItem name='Npm' value='60' />
 					</Col>
 					<Col>
 						<SkillsItem name='Netlify' value='48' />
